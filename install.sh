@@ -16,6 +16,9 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 echo '[[ -s /etc/profile.d/rvm.sh ]] && source /etc/profile.d/rvm.sh' >> $HOME/.bashrc
 [[ -s /etc/profile.d/rvm.sh ]] && source /etc/profile.d/rvm.sh
 
+cd /u16ruball
+mv .gemrc $HOME/.gemrc
+
 for file in /u16ruball/version/*;
 do
   $file
