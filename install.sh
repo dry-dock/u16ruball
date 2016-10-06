@@ -12,12 +12,10 @@ sudo apt-get update
 
 echo "================= Updating global rvm packages ==================="
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-curl -sSL https://get.rvm.io | bash -s stable
-echo '[[ -s /etc/profile.d/rvm.sh ]] && source /etc/profile.d/rvm.sh' >> $HOME/.bashrc
-[[ -s /etc/profile.d/rvm.sh ]] && source /etc/profile.d/rvm.sh
-
-cd /u16ruball
-mv .gemrc $HOME/.gemrc
+\curl -O https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer
+\curl -O https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer.asc
+gpg --verify rvm-installer.asc
+bash rvm-installer stable
 
 for file in /u16ruball/version/*;
 do
