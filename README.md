@@ -1,5 +1,6 @@
 #u16ruball
 Docker image with ubuntu 16.04 + ruby + all services &amp; tools
+
 1. ruby-1.8.7
 2. ruby-1.9.2
 3. ruby-1.9.3
@@ -20,6 +21,7 @@ Docker image with ubuntu 16.04 + ruby + all services &amp; tools
 18. ree-1.8.7
 
 **Services:**
+
 1. cassandra 3.6
 2. couchdb 1.6
 3. elasticsearch 2.4
