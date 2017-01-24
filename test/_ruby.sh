@@ -56,3 +56,12 @@ printf "\n"
 echo "rvm use 2.2.1"
 rvm use 2.2.1
 printf "\n"
+
+
+echo "rvm use 2.3.2"
+rvm use 2.3.2
+printf "\n"
+
+echo "rvm use 2.3.3"
+rvm use 2.3.3
+printf "\n" 
