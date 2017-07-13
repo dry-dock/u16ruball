@@ -1,26 +1,14 @@
 #u16ruball
 Docker image with ubuntu 16.04 + ruby + all services &amp; tools
 
-1. ruby-1.8.7
-2. ruby-1.9.2
-3. ruby-1.9.3
-4. ruby-2.0.0
-5. ruby-2.1.2
-6. ruby-2.1.3
-7. ruby-2.1.4
-8. ruby-2.1.5
-9. ruby-2.2.0
-10. ruby-2.2.1
-11. ruby-2.2.5
-12. ruby-2.3.0
-13. ruby-2.3.1
-14. ruby-2.3.2
-15. ruby-2.3.3
-16. jruby-1.7.19
-17. jruby-9.0.0
-18. jruby-9.1.2
-19. jruby-9.1.5
-20. ree-1.8.7
+
+1. ruby-2.2.7
+2. ruby-2.3.4
+3. ruby-2.4.1
+4. jruby-1.7.27
+5. jruby-9.0.0
+6. jruby-9.1.12
+
 
 **Services:**
 
