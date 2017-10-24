@@ -2,12 +2,12 @@
 Docker image with ubuntu 16.04 + ruby + all services &amp; tools
 
 
- 1. ruby-2.2.7
- 2. ruby-2.3.4
- 3. ruby-2.4.1
+ 1. ruby-2.2.8
+ 2. ruby-2.3.5
+ 3. ruby-2.4.2
  4. jruby-1.7.27
  5. jruby-9.0.0
- 6. jruby-9.1.12
+ 6. jruby-9.1.13
 
 
 **Services:**

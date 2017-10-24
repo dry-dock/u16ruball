@@ -17,14 +17,14 @@ echo "rvm use jruby-9.1.1"
 rvm use jruby-9.1.1
 printf "\n"
 
-echo "rvm use 2.2.7"
-rvm use 2.2.7
+echo "rvm use 2.2.8"
+rvm use 2.2.8
 printf "\n"
 
-echo "rvm use 2.3.4"
-rvm use 2.3.4
+echo "rvm use 2.3.5"
+rvm use 2.3.5
 printf "\n"
 
-echo "rvm use 2.4.1"
-rvm use 2.4.1
+echo "rvm use 2.4.2"
+rvm use 2.4.2
 printf "\n"
