@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-RUBY_VER=2.5.1
+RUBY_VER=2.5.3
 echo "================= Installing Ruby $RUBY_VER ==================="
 rvm requirements
 rvm install "$RUBY_VER"
